@@ -22,9 +22,9 @@ const validate = values => {
   // if (!values.description) {
   //   errors.description = 'Required'
   // } 
-  if (!values.location) {
-    errors.location = '*Required'
-  } 
+  // if (!values.location) {
+  //   errors.location = '*Required'
+  // } 
   return errors
 }
 
@@ -112,8 +112,7 @@ class PostNew extends Component{
       file: 'test'
     };
   }
-  onSubmit(props) {
-    event.preventDefault();
+  onSubmit(props) {  
     this.props.createPost3(props);
     console.log('after createPost3');
     browserHistory.push('/');
