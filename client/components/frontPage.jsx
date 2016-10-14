@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import * as actions from '../actions/actionCreators';
 
+import Splash from './splash';
+
 class FrontPage extends Component {
 
   renderCityName() {
@@ -58,12 +60,15 @@ class FrontPage extends Component {
 
   render() {        
     return (
-      <main className="oneColPage">
-        <h1 className="mainTitle">OPEN MUSEUM</h1>
-        <h1 className="cityNameTitle">{this.renderCityName()}</h1>
-        <SearchBox fetchPostsFromSearch={this.props.fetchPostsFromSearch}/>
-        <div className="themeBox">{this.renderThemeBtns()}</div>
-      </main>
+      <div id = "frontPage">        
+      {/*<Splash />*/}
+        <main className="oneColPage">
+          <h1 className="mainTitle">OPEN MUSEUM</h1>
+          <h1 className="cityNameTitle">{this.renderCityName()}</h1>
+          <SearchBox fetchPostsFromSearch={this.props.fetchPostsFromSearch}/>
+          <div className="themeBox">{this.renderThemeBtns()}</div>
+        </main>
+      </div>
     );
   }
 }

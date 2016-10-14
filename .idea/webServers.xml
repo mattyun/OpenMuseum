@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="7e44b220-b080-4d64-8827-3a61aadebb90" name="openMuseum" url="http://107.170.158.152">
+        <fileTransfer host="107.170.158.152" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/var/www/theopenmuseum.org/html" accessType="SFTP" passphrase="dfcddfc5dfcedfc3dfd9dfcddfc5dfc5dfcedf9bdf8b" username="myun" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

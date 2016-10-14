@@ -238,6 +238,21 @@ h1, h2 {
 
   border-bottom: 1px solid #DCDCDC;
 }
+
+/*********** SPLASH ************/
+#splashPage{
+  /*width: 1000px;*/
+}
+img#splashImage{
+  width: 100%;
+}
+
+#frontTitle{
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
 /************ SEARCHBOX  ************/
 .input-group .form-control:first-child {
   border-radius: 0;
@@ -457,6 +472,8 @@ h1, h2 {
   font-size: 3rem;
   margin-right: 10px;
 }
+
+
 
 /*********** IMAGE SLIDE ************/
 @font-face {

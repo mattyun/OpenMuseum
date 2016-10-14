@@ -56,7 +56,7 @@ class PostLists extends Component {
     }
   }
 
-
+    
   render() {
     return (
       <main>
